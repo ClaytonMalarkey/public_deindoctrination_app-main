@@ -1,0 +1,46 @@
+/* Basic global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+
+  /* Animation keyframes for login/register forms */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Smooth transitions for all elements */
+  * {
+    box-sizing: border-box;
+  }
+  
